@@ -31,20 +31,20 @@ class Header extends Component {
                     </div>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                            <Link classname="nav-link js-scroll-trigger" to="/about">About</Link>
+                            <li className="nav-item nav-link js-scroll-trigger">
+                            <Link to="/home/#about">About</Link>
                             </li>
-                            <li className="nav-item">
-                            <Link classname="nav-link js-scroll-trigger" to="/experience">Experience</Link>
+                            <li className="nav-item nav-link js-scroll-trigger">
+                            <Link  to="/experience">Experience</Link>
                             </li>
-                            <li className="nav-item">
-                            <Link classname="nav-link js-scroll-trigger" to="/education">Education</Link>
+                            <li className="nav-item nav-link js-scroll-trigger">
+                            <Link  to="/home/#education">Education</Link>
                             </li>
-                            <li className="nav-item">
-                            <Link classname="nav-link js-scroll-trigger" to="/skills">Skills</Link>
+                            <li className="nav-item nav-link js-scroll-trigger">
+                            <Link  to="/home/skills">Skills</Link>
                             </li>
-                            <li className="nav-item">
-                            <Link classname="nav-link js-scroll-trigger" to="/footer">Interests</Link>
+                            <li className="nav-item nav-link js-scroll-trigger">
+                            <Link to="/home/footer">Interests</Link>
                             </li>
                         </ul>
                     </div>

@@ -18,9 +18,8 @@ class Main extends Component {
             <Router >
               <Header />
                 <Switch>
-                    <Route path='/home' component={HomePage} />
+                    <Route exact path='/home' render={() => <HomePage/>} />
                     <Route exact path='/experience' render={() => <Experience />} />
-                    <Redirect to='/home' />
                 </Switch>
               <Footer />
             </Router>

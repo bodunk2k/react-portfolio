@@ -10,12 +10,14 @@ function Directory(props) {
                     <h2 className="mb-5">Experience</h2>
                         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div className="resume-content">
-                            <h3 className="mb-0">
-                                <a  data-target="#amdocs">
-                                Senior Subject Matter Expert</a>
-                            </h3>
-                            <div  id="amdocs" >
-                                <div className="subheading mb-3">Amdocs</div>
+                                <h3 className="mb-0">
+                                    <a  data-target="#amdocs">
+                                    Senior Subject Matter Expert
+                                    </a>
+                                </h3>
+                                <div  id="amdocs" >
+                                    <div className="subheading mb-3">Amdocs
+                                    </div>
                                     <p>Support programmer for telecommunications software package.
                                     Provide support in accounts receivable.
                                     Designed and helped code/install collections process.
@@ -25,16 +27,16 @@ function Directory(props) {
                                     Datalayers for access to Oracle database.
                                     </p>
                                 </div>
+                                
+                            
+                                <div className="resume-date text-md-right">
+                                    <span className="text-primary">Dec 12,2000 - Aug 16,2018</span>
+                                </div>
                             </div>
-                        </div>
-                            <div className="resume-date text-md-right">
-                                <span className="text-primary">Dec 12,2000 - Aug 16,2018</span>
-                            </div>
-                </div>
-                            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                                <div className="resume-content">
+                            <div className="resume-content">
                                 <h3 className="mb-0">
-                                <a  data-target="#bridge">Contract Programmer</a></h3>
+                                    <a  data-target="#bridge">Contract Programmer</a>
+                                </h3>
                                     <div className="subheading mb-3">Bridge Technologies</div>
                                         <p>Provided Testing Support for Client.
                                             Completed Power Builder Boot Camp April 15, 2000.
@@ -47,17 +49,17 @@ function Directory(props) {
                                             June 2000 - present - R&D for new tool procurement.
                                             Position terminated due to lack of contract.
                                         </p>
-                                    </div>
+                                
                                     <div className="resume-date text-md-right">
-                                        <span className="text-primary">June 1,1993 - Nov 3,1999</span>
+                                        <span className="text-primary">Jan 17,2000 - Oct 31,2000</span>
                                     </div>
-                            </div>
-
-                            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                                </div>
                                 <div className="resume-content">
                                     <h3 className="mb-0">
-                                    <a  data-target="#fdr">Senior Programmer Analyst </a></h3>
-                                        <div class="subheading mb-3">First Data Resources</div>
+                                    <a  data-target="#fdr">Senior Programmer Analyst </a>
+                                    </h3>
+                                        <div className="subheading mb-3">First Data Resources
+                                        </div>
                                             <p>Provided batch support of mainframe credit card processing.
                                                 Developed designs and assisted in installation of release.
                                                 On call duties included support calls at all times.
@@ -69,19 +71,17 @@ function Directory(props) {
                                                 June 1995 - Dec 1996  Senior Software Development Analyst
                                                 June 1997 (Transfered to Tulsa, OK)
                                                 June 1997 - July 1998 System Engineer.
-                                    
                                             </p>
-                                        </div>
+                                    <div className="resume-date text-md-right">
+                                        <span className="text-primary">June 1,1993 - Nov 3,1999</span>
                                     </div>
-                                <div class="resume-date text-md-right">
-                                    <span class="text-primary">June 1,1993 - Nov 3,1999</span>
                                 </div>
-
-                            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                                <div class="resume-content">
-                                    <h3 class="mb-0">
+                           
+                                <div className="resume-content">
+                                    <h3 className="mb-0">
                                     <a data-target="#mutual">Programmer Analyst</a></h3>
-                                        <div class="subheading mb-3">Mutual of Omaha</div>
+                                        <div className="subheading mb-3">Mutual of Omaha
+                                        </div>
                                                 <p>Provided batch support of mainframe insurance processing.
                                                 On call duties included support calls at all times.
                                                 Worked in Cobol using JCL, VSAM, XPEDITER, and WSF2.
@@ -90,12 +90,12 @@ function Directory(props) {
                                                 Jan 1991 - Dec 1992 Programmer I
                                                 Dec 1992 - June 1993 Programmer II
                                                 </p>
-                                        </div>
-                                        </div>
-                                <div class="resume-date text-md-right">
-                                        <span class="text-primary">Jan 7,1991 - May 31,1993 </span>
+                                        <div className="resume-date text-md-right">
+                                                <span className="text-primary">Jan 7,1991 - May 31,1993 </span>
+                                        </div> 
                                 </div>
-
+                            </div>
+                        </div>
                 </section>
             </div> 
         </div>
